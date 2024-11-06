@@ -12,7 +12,7 @@ export default function EmotionDetector({ description, title }: { description: s
     const response = await axios.post(
       "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest",
       { text },
-      { headers: { Authorization: "Bearer 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" } }
+      { headers: { Authorization: "Bearer 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" } }
     );
     const result = response.data;
 

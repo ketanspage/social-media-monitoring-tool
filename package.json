@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "postinstall": "prisma generate",
-    "build": "prisma generate && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,7 +23,6 @@
     "dotenv": "^16.4.5",
     "lucide-react": "^0.344.0",
     "next": "14.1.2",
-    "next-auth": "^5.0.0-beta.15",
     "radix-ui": "^1.0.1",
     "react": "^18",
     "react-dom": "^18",

@@ -6,7 +6,7 @@ export async function queryAPI(title, description) {
         "https://api-inference.huggingface.co/models/SamLowe/roberta-base-go_emotions",
         {
           headers: {
-            Authorization: "Bearer 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",
+            Authorization: "Bearer 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",
             "Content-Type": "application/json",
           },
           method: "POST",
